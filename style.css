@@ -4,6 +4,9 @@
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
 
 /* CAPA */
 
@@ -26,12 +29,23 @@
     margin: 50px;
 }
 
-.botao_branco{
+.botao_branco {
     border-radius: 2rem;
-    background-color: #f36b6b26;
+    background-color: transparent;
+    border: 2px solid #ffffff;
     font-size: 1rem;
     padding: 1rem 3rem;
-    color:#f70230
+    color:#f70230;
+    text-decoration: none;
+    font-size: 16px;
+    transition: all .5s;
+}
+
+.botao_branco:hover {
+    background: #D43F52;
+    border-color: transparent;
+    color: #FFFFFF;
+    transition: all .5s;
 }
 
 .descricao{
@@ -39,8 +53,6 @@
     width: 90%;
     align-content: center;
     margin: 0 auto;
-
-
 }
 
 .descricao_esquerda{
@@ -75,6 +87,15 @@
     font-weight: bold;
     color:#f70230;
     margin: 30px;
+    text-decoration: none;
+    transition: all .5s;
+}
+
+.botao_cv:hover {
+    border-color: transparent;
+    transition: all .5s;
+    background: #D43F52;
+    color: #FFFFFF;
 }
 
 .descricao_direita{
